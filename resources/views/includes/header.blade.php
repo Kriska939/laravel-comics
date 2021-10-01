@@ -1,6 +1,6 @@
 <header class="container j-between flex">
     <figure>
-      <img src="" alt="Logo DC" class="logo" />
+      <img src="{{ asset('img/dc-logo.png') }}" alt="Logo DC" class="logo" />
     </figure>
     <nav>
       <ul class="flex">

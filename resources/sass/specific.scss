@@ -21,4 +21,126 @@ nav ul li a {
     margin-top: 10px;
   }
 
+// MAIN CONTENT 
+
+#content {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    position: relative;
+    text-align: center;
   
+    button {
+      background-color: $color-blue;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 4px;
+      border: 1px solid white;
+      margin-top: 10px;
+    }
+  
+    .container {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+// SPECIFIC CARD
+
+.comic {
+    flex-basis: calc(100% / 8);
+    text-align: center;
+    margin-left: 30px;
+    height: 300px;
+    img {
+      width: 150px;
+    }
+  
+    h3 {
+      width: 100%;
+      font-size: 16px;
+      text-align: left;
+    }
+  }
+
+// FOOTER
+
+footer {
+    background-image: url("");
+  }
+  #columns {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    height: 300px;
+    width: 30%;
+    ul {
+      margin-right: 30px;
+    }
+  }
+  
+  #columns {
+    ul {
+      li {
+        font-size: 12px;
+      }
+    }
+  }
+  
+  #columns {
+    ul {
+      li {
+        a {
+          color: darkgray;
+        }
+      }
+    }
+  }
+  
+  #columns {
+    h4 {
+      color: white;
+      margin-bottom: 5px;
+    }
+  }
+  
+  #social {
+    background-color: $color-gray;
+    height: 100px;
+    line-height: 100px;
+    width: 100%;
+    position: relative;
+  }
+  
+  button {
+    background-color: transparent;
+    border: 2px solid $color-blue;
+    padding: 13px;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    margin: 20px 0;
+  }
+  
+  #followContainer {
+    max-height: 40px;
+    h3 {
+      color: $color-blue;
+      font-size: 24px;
+    }
+    img {
+      margin-top: auto;
+      padding-top: 30px;
+      padding-left: 10px;
+    }
+  }
+  
+  #DCHalf {
+    img {
+      width: 70%;
+      height: auto;
+      margin-top: -20px;
+      margin-bottom: -20px;
+    }
+  }
