@@ -51,6 +51,13 @@ header nav {
   margin-top: 10px;
 }
 
+#jumbotron {
+  height: 270px;
+  background-image: url("../img/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #content {
   background-color: black;
   color: white;
