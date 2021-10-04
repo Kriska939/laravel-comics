@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+nav ul li a {
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+header {
+  height: 100px;
+}
+
+.logo {
+  max-height: 80px;
+  margin-bottom: 20px;
+}
+
+header img,
+header nav {
+  margin-top: 10px;
+}
+
+#content {
+  background-color: black;
+  color: white;
+  padding: 40px 0;
+  position: relative;
+  text-align: center;
+}
+#content button {
+  background-color: #0282f9;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid white;
+  margin-top: 10px;
+}
+#content .container {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.comic {
+  flex-basis: 12.5%;
+  text-align: center;
+  margin-left: 30px;
+  height: 300px;
+}
+.comic img {
+  width: 150px;
+}
+.comic h3 {
+  width: 100%;
+  font-size: 16px;
+  text-align: left;
+}
+
+footer {
+  background-image: url("");
+}
+
+#columns {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0;
+  height: 300px;
+  width: 30%;
+}
+#columns ul {
+  margin-right: 30px;
+}
+
+#columns ul li {
+  font-size: 12px;
+}
+
+#columns ul li a {
+  color: darkgray;
+}
+
+#columns h4 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+#social {
+  background-color: #303030;
+  height: 100px;
+  line-height: 100px;
+  width: 100%;
+  position: relative;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid #0282f9;
+  padding: 13px;
+  color: white;
+  font-weight: bold;
+  height: 60px;
+  margin: 20px 0;
+}
+
+#followContainer {
+  max-height: 40px;
+}
+#followContainer h3 {
+  color: #0282f9;
+  font-size: 24px;
+}
+#followContainer img {
+  margin-top: auto;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+#DCHalf img {
+  width: 70%;
+  height: auto;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
