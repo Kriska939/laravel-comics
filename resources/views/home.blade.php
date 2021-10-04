@@ -7,6 +7,7 @@
        <!-- START FOREACH--> 
         @foreach($Infocomics as $key => $comic)
         <div class="comic">
+          <a href="{{route('comicdetail', ['id' => $loop->index])}}">
             <img src="{{ $comic['thumb']}}" alt="{{ $comic['series']}}" />
             <h3>{{ $comic['series']}}</h3>
         </div>

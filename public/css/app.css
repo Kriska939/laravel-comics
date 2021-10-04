@@ -13,6 +13,10 @@ ul li a {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style-type: none;
 }
@@ -28,6 +32,18 @@ ul {
 
 .j-between {
   justify-content: space-between;
+}
+
+.w-600 {
+  width: 600px;
+}
+
+.bg-green {
+  background-color: #55ba59;
+}
+
+.text-right {
+  text-align: right;
 }
 
 nav ul li a {
@@ -92,6 +108,7 @@ header nav {
   width: 100%;
   font-size: 16px;
   text-align: left;
+  color: #0282f9;
 }
 
 footer {
@@ -158,4 +175,14 @@ button {
   height: auto;
   margin-top: -20px;
   margin-bottom: -20px;
+}
+
+.small-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.price-info, .availability-info {
+  padding: 10px;
 }
