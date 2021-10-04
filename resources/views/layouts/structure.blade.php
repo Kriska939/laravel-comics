@@ -14,7 +14,8 @@
 <body>
 @include('includes.header')
     <main>
-   <!-- INSERISCI QUI YIELD PER IL CONTENUTO FUMETTI --> 
+   <!-- QUI YIELD PER IL CONTENUTO DELLA PAGINA --> 
+            @yield('content')
     </main>
  @include('includes.footer')
 </body>
