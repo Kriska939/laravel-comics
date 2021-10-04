@@ -19,6 +19,11 @@ Route::get('/', function () {
     return view('home', ['Infocomics' => $Infocomics]);
 })->name('home');
 
+Route::get('/comicdetail', function () {
+
+    return view ('comicdetail');
+})->name('comicdetail');
+
 Route::get('/comics', function () {
     return view('comics');
 })->name('comics');
