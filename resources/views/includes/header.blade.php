@@ -5,9 +5,9 @@
     <nav>
       <ul class="flex">
         <li >
-        <a href="{{route('home')}}">Home</a>
+        <a href="{{route('home')}}">Comics</a>
         <a href="{{route('characters')}}">Characters</a>
-        <a href="{{route('comics')}}">Comics</a>
+        <a href="{{route('comics')}}">Shop</a>
         </li>
       </ul>
     </nav>
