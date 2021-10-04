@@ -5,7 +5,8 @@
 @section('content')
 
 <div class="small-container">
-        <div class="row">
+    <h3 class="text-right">ADVERTISEMENT</h3>
+        <div class="row flex">
             <div class="col">
                 <h1>{{$comic['title']}}</h1>
                 <div class="flex w-600 j-between bg-green">
@@ -21,8 +22,10 @@
                     <p>{{$comic['description']}}</p>
                 </div>
             </div>
-            <div class="col w-300">
-                <img src="{{ asset('img/adv.jpg')}}" alt="spam">
+            <div class="col ml-20">
+                <figure>
+                    <img src="{{ asset('img/dc-logo.png') }}" alt="advertising" class="adv-img" />
+                  </figure>
             </div>
         </div>
 </div>
