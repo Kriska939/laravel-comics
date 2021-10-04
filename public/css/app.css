@@ -38,6 +38,10 @@ ul {
   width: 600px;
 }
 
+.w-300 {
+  width: 300px;
+}
+
 .bg-green {
   background-color: #55ba59;
 }
@@ -185,4 +189,12 @@ button {
 
 .price-info, .availability-info {
   padding: 10px;
+}
+
+.price-info {
+  width: 450px;
+}
+
+.description {
+  margin-top: 15px;
 }
